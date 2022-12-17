@@ -1,0 +1,20 @@
+.container{
+   width: 1200px; /* altura maxima */
+   display: flex; /* posicionar os elementos mais facil*/
+   justify-content: space-between; /* posicionar os elementos de forma igual na linha horizontal*/
+   margin: 0 auto; /* centraliza o container na tela */
+   flex-wrap: wrap; /* quando elementos passar a largura eles vao pra baixo fazendo uma nova linha */
+}
+
+.min-height{
+  min-height: 75%; /* junto com o props.customClass colocar o footer pra baixo de 75%*/
+}
+
+.start{
+    justify-content: flex-start; /* joga os conteudos pro inicio*/
+}
+
+.column{
+    flex-direction: column;
+    justify-content: flex-start;
+}
