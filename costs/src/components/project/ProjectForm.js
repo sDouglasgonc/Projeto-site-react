@@ -1,8 +1,8 @@
 import {useEffect,useState} from 'react'
-
 import Input from '../form/Input'
 import Select from '../form/Select'
 import SubmitButton from '../form/SubmitButton'
+
 import styles from './ProjectForm.module.css'
 
 function PojectForm({handleSubmit,btnText,projectData}){
@@ -26,7 +26,9 @@ function PojectForm({handleSubmit,btnText,projectData}){
 
 const submit = (e) =>{
     e.preventDefult()
+    //console.log(project)
     handleSubmit(project)
+
 }
 
 function handleChange(e) {
@@ -52,6 +54,7 @@ function handleCategory(e) {
              name='name'
              placeholder='Insira o nome do projeto'
              handleOnChange={handleChange}
+             value={project.name ? project.name : ''}
             />
             <Input
              type='number'
@@ -59,12 +62,15 @@ function handleCategory(e) {
              name='budget'
              placeholder='Insira o orçamento total'
              handleOnChange={handleChange}
+             value={project.budget ? project.budget : '' }
+
             />
             <Select 
             name="category_id"
             text="Selecione a categoria"
             options={categories}
             handleOnChange={handleCategory}
+            value={project.category ? project.category.id : ''}
             />
             <SubmitButton text={btnText}/>
         </form>
