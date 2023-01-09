@@ -13,7 +13,7 @@ function createPost(project) {
     fetch("http://localhost:5000/projects", {
         method : "POST",
         headers: {
-            "Content=Type" : 'application/json',
+            "Content-type" : 'application/json',
         },
         body: JSON.stringify(project)
     })
