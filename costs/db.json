@@ -1,50 +1,6 @@
 {
   "projects": [
     {
-      "name": "teste",
-      "budget": "23123",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
-      "name": "teste",
-      "budget": "234234",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "name": "teste",
-      "budget": "23232",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "teste",
-      "budget": "5000",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 4
-    },
-    {
       "name": "Douglas",
       "budget": "4345",
       "category": {
@@ -65,6 +21,17 @@
       "cost": 0,
       "services": [],
       "id": 6
+    },
+    {
+      "name": "Barbearia",
+      "budget": "100.000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 7
     }
   ],
   "categories": [
