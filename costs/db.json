@@ -18,8 +18,15 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 200,
+      "services": [
+        {
+          "name": "asdasdasd",
+          "cost": "200",
+          "description": "faz isso aqui",
+          "id": "eb75edf4-779d-4905-830d-d807ef2b63c6"
+        }
+      ],
       "id": 2
     }
   ],
