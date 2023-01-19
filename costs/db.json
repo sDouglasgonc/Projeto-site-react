@@ -7,8 +7,15 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 1000,
+      "services": [
+        {
+          "name": "Desenvolvedor Laravel",
+          "cost": "1000",
+          "description": "criar um formulario de custos de produção",
+          "id": "ed1efb26-44c2-4b04-b786-dce337ab3bd8"
+        }
+      ],
       "id": 1
     },
     {
@@ -18,15 +25,8 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 200,
-      "services": [
-        {
-          "name": "asdasdasd",
-          "cost": "200",
-          "description": "faz isso aqui",
-          "id": "eb75edf4-779d-4905-830d-d807ef2b63c6"
-        }
-      ],
+      "cost": 311,
+      "services": [],
       "id": 2
     }
   ],
