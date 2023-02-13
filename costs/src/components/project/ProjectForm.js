@@ -64,7 +64,7 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
         text="Selecione a categoria"
         options={categories}
         handleOnChange={handleCategory}
-        value={project.category ? project.category.id : ''}
+        vale={project.category ? project.category.id : ''}
       />
       <SubmitButton text={btnText} />
     </form>

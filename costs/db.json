@@ -28,6 +28,24 @@
       "cost": 311,
       "services": [],
       "id": 2
+    },
+    {
+      "name": "barbearia",
+      "budget": "200000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 3000,
+      "services": [
+        {
+          "name": "barbeiro",
+          "cost": "3000",
+          "description": "ele vai cortar o cabelo, fazer a barba, sobrançelha e limpeza de pele",
+          "id": "e8782d89-16b5-4713-a27c-80b3387f3d0c"
+        }
+      ],
+      "id": 3
     }
   ],
   "categories": [
